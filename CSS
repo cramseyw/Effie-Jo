@@ -1,0 +1,143 @@
+body { 
+    width: fit-content;
+    block-size: fit-content;
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-family: Verdana;
+    font-size: 16px;
+    padding: 50px;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+h1 {
+    color: #B65Faf;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+h4 {
+    margin: 1em auto;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+p {
+    width: auto;
+    max-width: 600px;
+    min-width: 200px;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+    color: black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 325px;
+    object-fit: contain;
+    padding: 10px;
+    border: 4px dotted #B65Faf;
+}
+
+hr {
+    border-top: 4px dotted #B65Faf;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: inline;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+legend {
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: -100px;
+}
+
+label {
+    display: block;
+    margin: 0.25rem 0;
+}
+
+input, textarea {
+    background-color: white
+    border: 1px solid black
+    color: black
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 1em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.details {
+    width: 500px;
+    font-size: 14px;
+    font-color: grey;
+    font-family: Verdana;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 3em;
+}
+
+.submit {
+    border-color: #B65Faf;
+    color: #B65Faf;
+}
+
+.submit:hover {
+    background-color: #B65Faf;
+    color: white;
+}
+
+.submit:active {
+    background-color: #B65Faf;
+    color: white;
+}
