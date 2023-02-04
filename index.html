@@ -15,6 +15,12 @@
               url:'https://api.apispreadsheets.com/data/WwTbLnpvkMiQaT1E/',
               type:'post',
               data:$("#survey-form").serializeArray(),
+              success: function(){
+          alert("Application Received - Woof!")
+        },
+        error: function(){
+          alert("Oops - Error")
+        }
       });
       }
     </script>
