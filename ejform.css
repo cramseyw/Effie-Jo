@@ -38,6 +38,13 @@ p {
     color: black;
 }
 
+.copyright {
+    text-align: center;
+    color: #3A3B3C;
+    font-size: 12px;
+    font-style: italic;
+    }
+
 img {
     display: block;
     margin-left: auto;
